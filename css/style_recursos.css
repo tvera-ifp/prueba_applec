@@ -1,0 +1,645 @@
+body {
+    background-color: #fffAEB;
+    margin: auto;
+    
+}
+
+.cap {
+    background-color: #FFBE00;
+    margin-top: -21px;
+    padding-top: 60px;
+    height: 200px;
+    width: 100vw;
+
+    background-color: red;
+}        
+
+.jugaiapren {
+    width: 50vw;
+    background-color: turquoise;
+}
+
+h1 {
+    margin-left: 30px;
+}
+
+#p5052 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;   
+}
+
+.pannot_amunt {
+    min-width: 35vw;
+    min-height: 15vh;
+    background-image: url(../img/seccio_recursos/pannot_arriba.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+
+    position: relative;
+    top: -11.1vh;
+    right: 9vw;
+
+
+
+}
+
+.icona_tornar{
+    width: 5vw;
+    height: 50px;
+    background-image: url(../img/boto_enrere.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    float: left;
+    margin: 25px;
+}
+
+.contingut {
+    border-radius: 50px 50px 0 0;
+    margin-top: -90px;
+    padding-top: 20px;
+    width: 100vw;
+    text-align: center;
+    
+}
+
+.contingut {
+    background-color: #fffAEB;
+    height: 1600px;
+ }
+
+ #p3 .contingut {
+    background-color: #fffAEB;
+    height: 1800px;
+ }
+
+ #p505 .contingut {
+    background-color: #fffAEB;
+    height: 1000px;
+ }
+
+ #p5052 .contingut {
+    background-color: #fffAEB;
+    height: 800px;
+ }
+
+ #p5053 .contingut {
+    background-color: #fffAEB;
+    height: 200px;
+ }
+
+ #p5054 .contingut {
+    background-color: #fffAEB;
+    height: 1080px;
+ }
+
+
+
+.seccio {
+    width: 80vw;
+    height: 70px;
+    border-radius: 40px;
+    box-shadow: inset 0px 0px 10px grey;
+    margin: auto;
+    background-color: #FFBE00;
+ }
+
+.selectorseccio ul{
+    margin: 0;
+    padding: 0;
+        
+    }
+
+.selectorseccio li{
+    width: 50%;
+    height: 50px;
+    float: left;
+    margin-top: 10px;
+    list-style-type: none;
+    border-radius: 30px;
+    
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 2.2;
+}
+
+
+
+    .recursoss {
+        width: 50vw;
+        margin-left: -30px;
+        border-radius: 30px;
+    }
+
+    .jocs {
+        width: 50%;
+        margin-left: 20px;
+        float: right;
+        border-radius: 30px;
+
+    }
+
+
+        #p501 .recursoss {
+            background-color: #FFFFFF;
+            box-shadow: 0px 0px 10px grey;
+        }
+
+         #p502 .recursoss {
+            background-color: #FFFFFF;
+            box-shadow: 0px 0px 10px grey;
+        }
+
+        #p503 .recursoss {
+            background-color: #FFFFFF;
+            box-shadow: 0px 0px 10px grey;
+        }
+
+        #p504 .recursoss {
+            background-color: #FFFFFF;
+            box-shadow: 0px 0px 10px grey;
+        }
+
+
+
+        #p505 .jocs {
+            background-color: #FFFFFF;
+            box-shadow: 0px 0px 10px grey;
+        }
+
+    
+.linea_divisoria {
+    width: 80vw;
+    height: 3.5px;
+    background-color:#FFBE00;
+    float: left;
+    margin-left: 10%;
+    margin-top: 30px;
+}
+
+
+.icona_recursos {
+    width: 20vw;
+    height: 50px;
+    background-color: #F5C144;
+    float: left;
+    margin-left: 10%;
+    margin-top:10% ;
+    border-radius: 50px;
+    box-shadow: 0px 0px 7px rgb(173, 173, 173);
+
+    background-repeat: no-repeat;
+    background-size: 45%;
+    background-position: center;
+}
+
+
+        .imultimedia {background-image: url(../img/seccio_recursos/icon_multimedia.png);}
+        .ieines {background-image: url(../img/seccio_recursos/icon_eines.png)}
+        .icalendari {background-image: url(../img/seccio_recursos/icon_calendari.png)}
+
+
+        #p502 .imultimedia {background-image: url(../img/seccio_recursos/icon_multimedia_y.png);
+                            background-color: #ffffff;
+                            box-shadow: inset 0px 0px 6px rgb(173, 173, 173);}
+
+
+        #p503 .ieines {background-image: url(../img/seccio_recursos/icon_eines_y.png);
+                            background-color: #ffffff;
+                            box-shadow: inset 0px 0px 6px rgb(173, 173, 173);}
+
+        
+        #p504 .icalendari {background-image: url(../img/seccio_recursos/icon_calendari_y.png);
+                            background-color: #ffffff;
+                            box-shadow: inset 0px 0px 6px rgb(173, 173, 173);}
+
+
+.mini_icona {
+    width: 30%;
+    height: 100%;
+    background-color: #ffffff;
+    border-radius: 50px;
+    float: left;
+    margin-right: 15px;
+
+    background-repeat: no-repeat;
+    background-size: 45%;
+    background-position: center;
+}
+
+        .mmultimedia {background-image: url(../img/seccio_recursos/icon_multimedia_y.png);}
+        .meines {background-image: url(../img/seccio_recursos/icon_eines_y.png)}
+        .mcalendari {background-image: url(../img/seccio_recursos/icon_calendari_y.png)}
+
+
+h2 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-shadow: 1px 1px 35px black;
+    font-family: kepler-std, serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 25px;
+    text-align: left;
+    line-height: 7px;
+}
+
+
+.titol_recursos {
+    float: left;
+    width: 60vw;
+    height: 60px;
+    background-color: #F5C144;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-left: 10%;
+    box-shadow: 0px 0px 7px rgb(173, 173, 173);
+}
+
+
+        #p502 .titol_recursos {
+            margin-left: 20%;
+        }
+
+        #p502 h3 {
+            text-align: center;
+            font-weight: bold;
+            color: white;
+            text-shadow: 0px 0px 28px black;
+        }
+
+        #p503 .titol_recursos {
+            margin-left: 20%;
+        }
+
+        #p503 h3 {
+            text-align: center;
+            font-weight: bold;
+            color: white;
+            text-shadow: 0px 0px 28px black;
+        }
+
+        #p504 .titol_recursos {
+            margin-left: 20%;
+        }
+
+        #p504 h3 {
+            text-align: center;
+            font-weight: bold;
+            color: white;
+            text-shadow: 0px 0px 28px black;
+        }
+ 
+
+
+.converses {
+    width: 80vw;
+    height: 250px;
+    background-color: purple;
+    margin: auto;
+    margin-top: 40px;
+    margin-left: 10%;
+    border-radius: 50px;
+    float: left;
+}
+
+        #p505 .converses {
+            height: 150px;
+            background-color: #F5C144;
+            box-shadow: inset 0px 0px 10px grey;
+        }
+
+        #p505 h4 {
+            float: left;
+            font-size: 30px;
+            font-weight: bold;
+            text-shadow: 0px 0px 10px grey;
+            opacity: 90%;
+            color: #ffffff;
+        }
+
+        .sopa {background-image: url(../img/seccio_recursos/icon_joc_sopa.png);}
+        .segons {background-image: url(../img/seccio_recursos/icon_joc_segons.png);}
+        .escolta {background-image: url(../img/seccio_recursos/icon_joc_escolta.png);}
+        .tria {background-image: url(../img/seccio_recursos/icon_joc_tria.png);}
+
+        .tria h4{ margin-left: -20px;}
+        .segons h4{line-height: 2;}
+
+        
+
+.icona_joc {
+    width: 40vw;
+    height: 150px;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+}
+        .tria {background-size: 60%;}
+
+.categories {
+    width: 80vw;
+    height: 150px;
+    background-color: purple;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 50px;
+}
+
+    .iconacateg {
+        width: 33%;
+        height: 150px;
+        background-color: aqua;
+        border-radius: 40px 0 0 40px;
+        float: left;
+    }
+
+    .descripciocateg {
+        width: 67%;
+        height: 150px;
+        float: left;
+        border-radius: 0 40px 40px 0 ;
+        background-color: greenyellow;
+    }
+
+
+
+
+        #p5052 .converses{
+            width: 41vw;
+            height: 180px;
+            float: left;
+            margin: 18px;
+
+            background-color: #F5C144;
+            box-shadow: inset 0px 0px 7px grey;
+            box-shadow: 0px 0px 7px grey;
+        }
+
+        #p5053 .converses{
+            width: 20vw;
+            height: 70px;
+            float: left;
+            margin: 10px;
+            border-radius: 20px;
+
+            background-color: #F5C144;
+            box-shadow: 0px 0px 7px grey, inset 0px 0px 3px grey;
+        }
+
+        #p5053 .contingut {
+            padding-top: 80px;
+        }
+
+        #p5053 h5 {
+            color: white;
+
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 2.5;
+            text-shadow: 0px 0px 7px grey;;
+
+            margin: auto;
+        }
+
+        #p5056 .converses{
+            width: 80vw;
+            height: 110px;
+            background-color:#F5C144;
+            margin: auto;
+            margin-top: 40px;
+            margin-left: 10%;
+            border-radius: 50px;
+            float: left;
+        }
+
+        #p5056 h5 {
+            color: white;
+
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 3.5;
+            text-shadow: 0px 0px 7px grey;;
+
+            margin: auto;
+        }
+
+
+        .icona_joc_sopa {
+            width: 41vw;
+            height: 180px;
+            background-size: 80%;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .pais{background-image: url(../img/seccio_recursos/icon_sopa_city.png);}
+        .animal{background-image: url(../img/seccio_recursos/icon_sopa_animal.png);}
+        .sports{background-image: url(../img/seccio_recursos/icon_sopa_sport.png);}
+        .food{background-image: url(../img/seccio_recursos/icon_sopa_food.png);}
+        .film{background-image: url(../img/seccio_recursos/icon_sopa_film.png);}
+        .world{background-image: url(../img/seccio_recursos/icon_sopa_world.png);
+        background-size: 70%;}
+
+
+        #p5054 .titolsopa {
+            height: 110px;
+            background-color: #F5C144;
+            box-shadow: 0px 0px 7px grey, inset 0px 0px 3px grey;
+
+            font-size: 40px;
+            font-weight: bold;
+            text-align: center;
+            color:white;
+            line-height: 0;
+        }
+
+        .fonssopa {
+            height: 450px;
+            background-image: url(../img/seccio_recursos/background_sopa.png);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-position: center;
+
+            box-shadow: 0px 0px 7px grey;
+        }
+
+        .cercasopa {
+            height: 200px;
+            background-image: url(../img/seccio_recursos/background_sopa_cerca.png);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-position: center;
+
+            box-shadow: 0px 0px 7px grey;
+        }
+
+
+
+
+        #p5056.fonssegons {
+            background-color: #ffffff;
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Barra inferior que va en todas las pantallas 
+para navegar*/
+
+
+
+.barra {
+    height: 110px;
+    width: 100vw;
+    background-image: url(../img/Fondmenu.png);
+    background-size: cover;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.barra ul {
+    margin: 0;
+    padding: 0;
+}
+
+.barra li {
+    width: 20vw;
+    height: 100px;
+    float: left;
+    margin: 0;
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.barra {
+    width: 100vw;
+    height: 22.8vw;
+    background-image: url(../img/iconas_barra/fondmenu-home.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: fixed;
+    bottom: -5px;
+    left: 0;
+    right: 0;
+}
+
+.barra ul {
+    width: 90.2vw;
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    top: 7vw;
+}
+
+.barra li {
+    width: 14.15vw;
+    height: 14.15vw;
+    margin: 1vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+ 
+
+    margin-top: 30px;
+}
+
+
+.barra li a {
+    width: 14.15vw;
+    height: 14.15vw;
+    display: block; 
+}
+
+
+.barra li .pannot a {
+    width: 18.6vw;
+    height: 18.6vw;
+}
+
+/* POSICIONES CONVERTIDAS A RESPONSIVE */
+
+.home {
+    background-image: url(../img/iconas_barra/home-blanc.png);
+}
+
+.grups {
+    background-image: url(../img/iconas_barra/grups-groc.png);
+}
+
+.pannot {
+    background-image: url(../img/iconas_barra/panot-groc.png);
+
+    height: 18.6vw !important;
+    width: 18.6vw !important;
+    margin-top: 2.6vw !important;
+    margin-left: 3.5vw !important;
+    margin-right: 3.5vw !important;
+    top: -3vw;
+}
+
+.recursos {
+    background-image: url(../img/iconas_barra/recursos-groc.png);
+}
+
+.perfil {
+    background-image: url(../img/iconas_barra/perfil-groc.png);
+}
+
+/* LÓGICA PARA LAS OTRAS PÁGINAS (ACTIVOS) */
+
+/* Pagina 2 - Grups */
+#p2 .barra { background-image: url(../img/iconas_barra/fondmenu-grups.png); }
+#p2.home { background-image: url(../img/iconas_barra/home-groc.png); }
+#p2 .grups { background-image: url(../img/iconas_barra/grups-blanc.png); }
+
+/* Pagina 3 - Panot */
+#pg3panot .barra { background-image: url(../img/iconas_barra/fondmenu-panot.png); }
+#pg3panot .home { background-image: url(../img/iconas_barra/home-groc.png); }
+#pg3panot .pannot { background-image: url(../img/iconas_barra/panot-blanc.png); }
+
+/* Pagina 4 - Recursos */
+#pg4recursos .barra { background-image: url(../img/iconas_barra/fondmenu-recursos.png); }
+#pg4recursos .home { background-image: url(../img/iconas_barra/home-groc.png); }
+#pg4recursos .recursos { background-image: url(../img/iconas_barra/recursos-blanc.png); }
+
+/* Pagina 5 - Perfil */
+#pg5perfil .barra { background-image: url(../img/iconas_barra/fondmenu-perfil.png); }
+#pg5perfil .home { background-image: url(../img/iconas_barra/home-groc.png); }
+#pg5perfil .perfil { background-image: url(../img/iconas_barra/perfil-blanc.png); }
