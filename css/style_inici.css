@@ -107,7 +107,7 @@ h2 {
 
 .imatge_quedada {
     width: 90%;
-    height: 8vh;
+    height: 9vh;
     background-color: #fffAEB;
     border-radius: 25px 25px 25px 25px;
     margin: auto;
@@ -121,7 +121,10 @@ h2 {
         }
 
         .i2 {
-
+            background-image: url(../img/bcn_arctri.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 0px -15px
         }
 
         .i3 {
@@ -130,6 +133,25 @@ h2 {
             margin-right: 0;
         }
 
+
+
+.boto_apuntat {
+    width: 27vw;
+    height: 6vh;
+    border-radius: 50px;
+    margin-top: 6vh;
+    margin-left: 52vw;
+
+    background-color: #fffAEB;
+    box-shadow: 0 2px 5px grey, inset 0 0px 2px grey;
+
+    line-height: 3.5;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+        
 .seccio2{
     width: 100vw;
     float: left;
