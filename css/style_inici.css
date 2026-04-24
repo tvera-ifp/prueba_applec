@@ -274,15 +274,25 @@ h2 {
     float: left;
 }
 
-    h4 {
+
+    .titol_joc {
+            width: 100px;
+            height: 50px;
+            background-color: pink;
+
             float: left;
-            font-size: 30px;
+            margin;
+
+            font-size: 22px;
             font-weight: bold;
+            
+
             text-shadow: 0px 0px 10px grey, 0px 0px 10px grey;
+
             opacity: 90%;
             color: #ffffff;
-
     }
+
 
      .sopa {background-image: url(../img/seccio_recursos/icon_joc_sopa.png);}
     .segons {background-image: url(../img/seccio_recursos/icon_joc_segons.png);}
@@ -366,7 +376,7 @@ h2 {
     border-radius: 50px;
     float: right;
     margin-right: 50px;
-    margin-top: 50px;
+    margin-top: 90px;
 
     line-height: 2;
     text-shadow: 0px 0px 10px grey;
