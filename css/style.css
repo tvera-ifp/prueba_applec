@@ -176,32 +176,95 @@ h2 {
     margin: auto;
     margin-top: 40px;
     border-radius: 45px;
+    
 }
 
 .categories {
     width: 80vw;
-    height: 150px;
-    background-color: purple;
+    height: 15.5vh;
+    background-color: #F5C144;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 4vh;
     border-radius: 50px;
+
+    box-shadow: 0 1px 5px grey;
 }
 
     .iconacateg {
-        width: 33%;
-        height: 150px;
-        background-color: aqua;
+        width: 40%;
+        height: 15.5vh;
+        background-color:#F5C144;
         border-radius: 40px 0 0 40px;
         float: left;
+
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 80%;
     }
 
+        .icona_cuina {background-image: url(../img/seccio_grups/temes_cuina.png);}
+        .icona_esport {background-image: url(../img/seccio_grups/temes_esports.png); background-size: 100%;}
+        .icona_menjar {background-image: url(../img/seccio_grups/temes_menjar.png);}
+        .icona_cultura {background-image: url(../img/seccio_grups/temes_cultura.png);}
+        .icona_feina {background-image: url(../img/seccio_grups/temes_feina.png);}
+        .icona_barcelona {background-image: url(../img/seccio_grups/temes_barcelona.png);}
+        .icona_musica {background-image: url(../img/seccio_grups/temes_musica.png); background-size: 60%;}
+        .icona_viatge {background-image: url(../img/seccio_grups/temes_viatges.png);}
+
+
     .descripciocateg {
-        width: 67%;
-        height: 150px;
+        width: 57%;
+        height: 13.5vh;
+        margin-top: 1vh;
         float: left;
         border-radius: 0 40px 40px 0 ;
-        background-color: greenyellow;
+        background-color: #ffffff;
     }
+
+
+        .titol_categ {
+            width: 30vw;
+            height: 2vh;
+            float: left;
+
+            margin-top: 1.5vh;
+            margin-left: 2.5vw;
+
+            text-align: left;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .descr_categ {
+            width: 30vw;
+            height: 7vh;
+            float: left;
+
+            margin-top: 1.5vh;
+            margin-left: 2.5vw;
+
+            text-align: left;
+            font-size: 15px;
+
+            
+        }
+        
+
+        .flecha_categ {
+            width: 10vw;
+            height: 5vh;
+            float: right;
+
+            background-image: url(../img/seccio_grups/icon_flecha.png);
+            background-repeat: no-repeat;
+            background-size: 50%;
+            background-position: center;
+
+            margin-right: 1vw;
+            margin-top: 1vh;
+
+            
+        }
 
 
 
