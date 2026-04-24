@@ -278,11 +278,12 @@ h2 {
     .titol_joc {
             width: 100px;
             height: 50px;
-            background-color: pink;
 
             float: left;
-            margin;
+            margin-top: 11vw;
+            margin-left: 6.5vw;
 
+            
             font-size: 22px;
             font-weight: bold;
             
@@ -299,7 +300,7 @@ h2 {
 
 .seccio3{
     width: 100vw;
-    height: 1600px;
+    height: 1400px;
     float: left;
 }
 
@@ -376,7 +377,7 @@ h2 {
     border-radius: 50px;
     float: right;
     margin-right: 50px;
-    margin-top: 90px;
+    margin-top: 50px;
 
     line-height: 2;
     text-shadow: 0px 0px 10px grey;
