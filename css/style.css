@@ -181,7 +181,7 @@ h2 {
 
 .categories {
     width: 80vw;
-    height: 15.5vh;
+    height: 18vh;
     background-color: #F5C144;
     margin: auto;
     margin-top: 4vh;
@@ -192,7 +192,7 @@ h2 {
 
     .iconacateg {
         width: 40%;
-        height: 15.5vh;
+        height: 18vh;
         background-color:#F5C144;
         border-radius: 40px 0 0 40px;
         float: left;
@@ -214,7 +214,7 @@ h2 {
 
     .descripciocateg {
         width: 57%;
-        height: 13.5vh;
+        height: 16vh;
         margin-top: 1vh;
         float: left;
         border-radius: 0 40px 40px 0 ;
