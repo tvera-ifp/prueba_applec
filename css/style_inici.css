@@ -63,14 +63,13 @@ h2 {
     height: 300px;
     float: left;
     margin: auto;
-    content: ;
 
 }
 
 
     .conversesmenu {
         width: 10vw;
-        height: 250px;
+        height: 28vh;
         border-radius: 15%;
         background-color: #F5C144;
         float: left;
@@ -82,7 +81,6 @@ h2 {
     .c2 {
         width: 66vw;
         margin-left: 8vw;
-        margin-right: ;
         
     }
 
@@ -134,22 +132,34 @@ h2 {
         }
 
 
+.info_conversa {
+    width: 90%;
+    height: 10vh;
+    background-color: pink;
+
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
 
 .boto_apuntat {
-    width: 27vw;
-    height: 6vh;
-    border-radius: 50px;
-    margin-top: 6vh;
-    margin-left: 52vw;
+    width: 80%;
+    height: 6vw;
 
+    float: left;
+    margin-left: 6.5vw;
+    margin-bottom: 0;
+
+    border-radius: 50px;
     background-color: #fffAEB;
     box-shadow: 0 2px 5px grey, inset 0 0px 2px grey;
 
-    line-height: 3.5;
-    font-size: 25px;
+    line-height: 2;
+    font-size: 14px;
     font-weight: bold;
-    
 }
+
 
         
 .seccio2{
