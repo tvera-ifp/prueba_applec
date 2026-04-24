@@ -135,13 +135,49 @@ h2 {
 .info_conversa {
     width: 90%;
     height: 12vh;
-    background-color: pink;
+    
 
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
 
 }
+
+    .line_converse {
+        height: 2px;
+        width: 80%;
+        margin: auto;
+        background-color: #ffffff;
+
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .nom_profe {
+        width: 50px;
+        height: 20px;
+        background-color: aqua;
+
+        margin-left: 0;
+        margin-top: 2.5vh;
+
+        float: left;
+    }
+
+    .icon_ppl {
+        width: 20vw;
+        height: 30px;
+
+        margin-right: ;
+        margin-top: 2vh;
+
+
+        background-image: url(../img/seccio_inici/icon_ppl.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+
+        float: right;
+    }
 
 .boto_apuntat {
     width: 80%;
