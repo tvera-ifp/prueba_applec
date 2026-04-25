@@ -11,21 +11,24 @@ body {
     height: 200px;
     width: 100vw;
 
-    background-color: red;
+
 }        
 
 .jugaiapren {
-    width: 50vw;
-    background-color: turquoise;
+    width: 55vw;
+
+    font-size: 30px;
 }
 
+#P505 .jugaiapren {}
+
 h1 {
-    margin-left: 30px;
+    margin-left: 10vw;
 }
 
 #p5052 {
     font-size: 20px;
-    margin-top: 10px;
+    
 }
 
 a {
@@ -34,16 +37,15 @@ a {
 }
 
 .pannot_amunt {
-    min-width: 35vw;
+    width: 35vw;
     min-height: 15vh;
     background-image: url(../img/seccio_recursos/pannot_arriba.png);
     background-repeat: no-repeat;
     background-size: cover;
+    
     float: right;
-
-    position: relative;
-    top: -11.1vh;
-    right: 9vw;
+    margin-top: -9.5vh;
+    margin-right: 6vw;
 
 
 
@@ -66,6 +68,7 @@ a {
     width: 100vw;
     text-align: center;
     
+    float: left;
 }
 
 .contingut {
@@ -107,6 +110,7 @@ a {
     box-shadow: inset 0px 0px 10px grey;
     margin: auto;
     background-color: #FFBE00;
+    
  }
 
 .selectorseccio ul{
@@ -303,12 +307,14 @@ h3 {
 .converses {
     width: 80vw;
     height: 250px;
-    background-color: purple;
+    background-color: #ffffff;
     margin: auto;
     margin-top: 40px;
     margin-left: 10%;
     border-radius: 50px;
     float: left;
+
+    box-shadow: 0 2px 5px grey, inset 0 0px 2px grey;
 }
 
         #p505 .converses {
@@ -325,6 +331,43 @@ h3 {
             opacity: 90%;
             color: #ffffff;
         }
+
+
+
+.empresa_multi {
+    width: 70vw;
+    height: 30%;
+
+    margin:auto;
+    margin-top: 1vh;
+
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: left;
+}
+
+    .cat {width: 30vw; margin-left: 5vw;background-size: 100%; background-image:url(../img/seccio_recursos/icon_3cat.png);}
+    .optimot {background-image: url(../img/seccio_recursos/icon_opti.png);}
+    .santjordi{background-size:110%; background-image: url(../img/seccio_recursos/icon_santjordi.png);}
+
+.empresa_desc {
+    width: 70vw;
+    height: 30%;
+    background-color: pink;
+    margin: auto;
+}
+
+.empresa_enllaç {
+    width: 70vw;
+    height: 30%;
+    background-color: red;
+    margin: auto;
+}
+
+
+
+
+
 
         .sopa {background-image: url(../img/seccio_recursos/icon_joc_sopa.png);}
         .segons {background-image: url(../img/seccio_recursos/icon_joc_segons.png);}
