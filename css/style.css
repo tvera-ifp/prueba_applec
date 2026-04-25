@@ -7,27 +7,42 @@ body {
 .cap {
     background-color: #FFBE00;
     margin: 0;
-    height: 400px;
+    height: 40vh;
     width: 100vw;
     margin-bottom: -50px;
 }        
 
 h2 {
     margin: auto;
-    margin-left: 30px;
-    margin-top: 50px;
+    margin-left: 7vw;
+
+    font-size: 20px;
+    text-align: left;
+    color:#FFF4D1;
+
+    float: left;
+    text-shadow: 0 2px 5px grey;
+
 }
 
-h1 {
-    margin: auto;
 
-    margin-left: 30px;
+.titol_grups {
+    width: 70vw;
+    height: 5vh;
 
+    float: left;
+    margin-left: 7vw;
+    margin-top: 4vh;
+    margin-bottom: -3vh;
+
+    text-shadow: 0 1px 2px grey;
 }
 
 a {
      text-decoration: none;
      color: inherit;
+
+     font-weight: bold;
 }
 
 .progres {
@@ -36,6 +51,9 @@ a {
     background-color: #FFF4D1;
     border-radius: 30px;
     margin: auto;
+
+    float: left;
+    margin-left: 4.8vw;
 }
 
 .progres1 {
@@ -105,7 +123,7 @@ a {
 
  #p3 .contingut {
     background-color: #fffAEB;
-    height: 1800px;
+    height: 205vh;
  }
 
 .seccio {
