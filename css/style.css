@@ -187,15 +187,139 @@ h2 {
 }
 
 
-.converses {
+
+ .converses {
     width: 80vw;
     height: 250px;
-    background-color: purple;
+    background-color: #F5C144;
+    box-shadow: 0 2px 5px grey, inset 0 0px 2px grey;
     margin: auto;
-    margin-top: 40px;
-    border-radius: 45px;
-    
+    margin-top: 5vh;
+    margin-left: 10vw;
+    border-radius: 50px;
+    float: left;
 }
+
+.cc2 {
+    filter: grayscale(60%);
+}
+
+
+    .info_conversa {
+        width: 90%;
+        height: 12vh;
+        
+
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+
+    .nom_ubi {
+        width: 100px;
+        height: 30px;
+        float: left;
+        margin-left: 10px;
+        
+        text-align: left;
+        font-size: 20px;
+        font-weight: bold;
+        font-style: italic;
+
+        line-height: 2;
+
+        color: white;
+        text-shadow: 0 2px 5px grey;
+    }
+
+    .nom_dia {
+        width: 90px;
+        height: 30px;
+        float: right;
+        margin-right: 10px;
+
+        text-align: right;
+        font-size: 16px;
+        text-shadow: 0 2px 5px grey;
+
+        color: white;
+    }
+
+
+    .line_converse {
+        height: 1px;
+        width: 90%;
+        margin: auto;
+        background-color: #ffffff;
+
+        float: left;
+
+        margin-top: 5vw;
+        margin-bottom: 0vw;
+        margin-left: 3vw;
+
+        box-shadow: 0 1px 5px grey;;
+
+    }
+
+    .nom_profe {
+        width: 70px;
+        height: 20px;
+
+        margin-left: 10px;
+        margin-top: 2.5vh;
+
+        float: left;
+
+        font-size: 19px;
+        text-shadow: 0 2px 5px grey;
+        color: white;
+    }
+
+    .icon_ppl {
+        width: 20vw;
+        height: 30px;
+
+        margin-right: 10px;
+        margin-top: 2vh;
+
+
+        background-image: url(../img/seccio_inici/icon_ppl.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+
+        float: right;
+    }
+
+    .boto_apuntat {
+        width: 80%;
+        height: 6vw;
+
+        float: left;
+        margin-left: 8vw;
+        margin-bottom: 0;
+
+        border-radius: 50px;
+        background-color: #fffAEB;
+        box-shadow: 0 2px 5px grey, inset 0 0px 2px grey;
+
+        line-height: 2;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .imatge_quedada {
+        width: 90%;
+        height: 9vh;
+        background-color: #fffAEB;
+        border-radius: 25px 25px 25px 25px;
+        margin: auto;
+        margin-top: 2vh;
+    }
+
+
+
 
 .categories {
     width: 80vw;
