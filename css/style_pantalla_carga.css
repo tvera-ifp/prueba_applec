@@ -12,9 +12,10 @@ body {
     background-image: url(../img/icono_apple_carga.png); 
     background-repeat: no-repeat;
     background-size: 100%;
+    position: center;
 
-    width: 25vw;
-    height: 12vh;
+    width: 26vw;
+    height: 13vh;
     margin: auto;
     
     
