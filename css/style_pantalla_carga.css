@@ -11,14 +11,14 @@ body {
 .icona {
     background-image: url(../img/icono_apple_carga.png); 
     background-repeat: no-repeat;
-    background-size: 100%;
-    position: center;
+    background-size: 95%;
+    background-position: center;
 
-    width: 26vw;
-    height: 13vh;
+    width: 29vw;
+    height: 14vh;
     margin: auto;
     
-    
+  
 }
 
 
@@ -29,10 +29,11 @@ body {
                ampliar 4s ease-in 5s forwards;
 }
 
+/*
 .icona {
     animation: rotacio 2s linear infinite;
 }
-
+*/
 
 @keyframes rotacio {
     from {
