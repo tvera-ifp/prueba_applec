@@ -81,6 +81,18 @@ a {
     height: 1800px;
  }
 
+ #p502 .contingut {
+    height: 225vh;
+ }
+
+ #p503 .contingut {
+    height: 225vh;
+ }
+
+ #p504 .contingut {
+    height: 330vh;
+ }
+
  #p505 .contingut {
     background-color: #fffAEB;
     height: 1000px;
@@ -260,7 +272,7 @@ h3 {
 .titol_recursos {
     float: left;
     width: 60vw;
-    height: 60px;
+    height: 7vh;
     background-color: #F5C144;
     border-radius: 50px;
     margin-top: 50px;
@@ -317,6 +329,10 @@ h3 {
     box-shadow: 0 2px 5px grey, inset 0 0px 2px grey;
 }
 
+        #p501 .converses {
+            height: 25vh;
+        }
+
         #p505 .converses {
             height: 150px;
             background-color: #F5C144;
@@ -337,31 +353,88 @@ h3 {
 .empresa_multi {
     width: 70vw;
     height: 30%;
+    
 
     margin:auto;
-    margin-top: 1vh;
+    margin-top: 2vh;
 
     background-repeat: no-repeat;
     background-size: 80%;
     background-position: left;
 }
 
+    #p502 .empresa_multi{
+        height: 20%;
+    }
+
     .cat {width: 30vw; margin-left: 5vw;background-size: 100%; background-image:url(../img/seccio_recursos/icon_3cat.png);}
     .optimot {background-image: url(../img/seccio_recursos/icon_opti.png);}
     .santjordi{background-size:110%; background-image: url(../img/seccio_recursos/icon_santjordi.png);}
 
+
+    .bunquer {background-image: url(../img/seccio_recursos/icon_bunquer.png);}
+    .merli {background-image: url(../img/seccio_recursos/icon_merli.png);}
+    .competencia {background-image: url(../img/seccio_recursos/icon_competencia.png);}
+    .polseres {background-image: url(../img/seccio_recursos/icon_polseres.png);}
+
+
+    .diccionari {background-image: url(../img/seccio_recursos/icon_diccionari.png);}
+    .soft {background-image: url(../img/seccio_recursos/icon_soft.png);}
+    .term {background-image: url(../img/seccio_recursos/icon_term.png);}
+    .parla {background-image: url(../img/seccio_recursos/icon_parla.png);}
+
+
+    .santjordi2 {background-image: url(../img/seccio_recursos/icon_sanjordi2.png);}
+    .castanyada {background-image: url(../img/seccio_recursos/icon_castanyada.png);}
+    .santjoan {background-image: url(../img/seccio_recursos/icon_sanjoan.png);}
+    .lamerce {background-image: url(../img/seccio_recursos/icon_merce.png);}
+    .cagatio {background-image: url(../img/seccio_recursos/icon_cagatio.png);}
+    .patum {background-image: url(../img/seccio_recursos/icon_patum.png);}
+    .correfocs {background-image: url(../img/seccio_recursos/icon_correfocs.png);}
+    .festamajor {background-image: url(../img/seccio_recursos/icon_festamajor.png);}
+
+
 .empresa_desc {
     width: 70vw;
     height: 30%;
-    background-color: pink;
     margin: auto;
+
+    text-align: left;
+    font-size: 19px;
+
+    
 }
+
+
+    #p502 .empresa_desc {
+        height: 45%;
+    }
+
 
 .empresa_enllaç {
     width: 70vw;
-    height: 30%;
-    background-color: red;
+    height: 25%;
     margin: auto;
+
+    text-align: left;
+    font-size: 18px;
+    overflow-wrap: break-word;
+    font-style: italic;
+
+    
+}
+
+.data_calendari {
+    width: 50vw;
+    height: 15%;
+
+    float: right;
+    margin-top: 3vh;
+    margin-right: 2vw;
+
+    line-height: 3;
+    font-weight: bold;
+    font-size: 19px;
 }
 
 
