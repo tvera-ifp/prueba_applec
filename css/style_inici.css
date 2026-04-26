@@ -79,8 +79,8 @@ h2 {
 
 
     .c2 {
-        width: 66vw;
-        margin-left: 8vw;
+        width: 70vw;
+        margin-left: 6vw;
         
     }
 
@@ -132,6 +132,14 @@ h2 {
         }
 
 
+.nom_classe {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 0px 0px 3px rgb(145, 145, 145);
+    line-height: 3.5;
+}
+
 .info_conversa {
     width: 90%;
     height: 12vh;
@@ -160,22 +168,42 @@ h2 {
         text-shadow: 0 2px 5px grey;
     }
 
+            .icona_rellotge {
+                width: 9vw;
+                height: 5vh;
+                float: left;
+                margin-right: 1vw;
+                
+                background-image: url(../img/seccio_inici/icon_duracio.png);
+                background-repeat: no-repeat;
+                background-size: 100%;
+                background-position: center;
+
+            }
+
+            .temps_conversa {
+                font-style: normal;
+            }
+
+
     .nom_dia {
-        width: 90px;
-        height: 30px;
+        width: 27vw;
+        height: 6vh;
         float: right;
         margin-right: 10px;
 
         text-align: right;
-        font-size: 16px;
+        font-size: 19px;
         text-shadow: 0 2px 5px grey;
+        line-height: 1.5;
+        font-style: italic;
 
         color: white;
     }
 
 
     .line_converse {
-        height: 1px;
+        height: 1.5px;
         width: 90%;
         margin: auto;
         background-color: #ffffff;
@@ -191,22 +219,22 @@ h2 {
     }
 
     .nom_profe {
-        width: 70px;
-        height: 20px;
+        width: 20vw;
+        height: 4vh;
 
         margin-left: 10px;
         margin-top: 2.5vh;
 
         float: left;
 
-        font-size: 19px;
+        font-size: 22px;
         text-shadow: 0 2px 5px grey;
         color: white;
     }
 
     .icon_ppl {
-        width: 20vw;
-        height: 30px;
+        width: 23vw;
+        height: 4vh;
 
         margin-right: 10px;
         margin-top: 2vh;
@@ -221,18 +249,18 @@ h2 {
 
 .boto_apuntat {
     width: 80%;
-    height: 6vw;
+    height: 7.5vw;
 
     float: left;
     margin-left: 6.5vw;
-    margin-bottom: 0;
+    margin-top: 1vh;
 
     border-radius: 50px;
     background-color: #fffAEB;
     box-shadow: 0 2px 5px grey, inset 0 0px 2px grey;
 
     line-height: 2;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: bold;
 }
 
