@@ -16,20 +16,14 @@ body {
 
 .jugaiapren {
     width: 55vw;
-
     font-size: 30px;
 }
 
 #P505 .jugaiapren {}
 
-h1 {
-    margin-left: 10vw;
-}
+h1 {margin-left: 10vw;}
 
-#p5052 {
-    font-size: 20px;
-    
-}
+#p5052 {font-size: 20px;}
 
 a {
     text-decoration: none;
@@ -81,34 +75,30 @@ a {
     height: 1800px;
  }
 
- #p502 .contingut {
-    height: 225vh;
- }
+#p501 .contingut {height: 175vh;}
 
- #p503 .contingut {
-    height: 225vh;
- }
+#p502 .contingut {height: 235vh;}
 
- #p504 .contingut {
-    height: 330vh;
- }
+#p503 .contingut {height: 235vh;}
 
- #p505 .contingut {
+#p504 .contingut {height: 340vh;}
+
+#p505 .contingut {
     background-color: #fffAEB;
     height: 1000px;
  }
 
- #p5052 .contingut {
+#p5052 .contingut {
     background-color: #fffAEB;
     height: 800px;
  }
 
- #p5053 .contingut {
+#p5053 .contingut {
     background-color: #fffAEB;
     height: 200px;
  }
 
- #p5054 .contingut {
+#p5054 .contingut {
     background-color: #fffAEB;
     height: 1080px;
  }
@@ -362,6 +352,8 @@ h3 {
     background-size: 80%;
     background-position: left;
 }
+
+    #p502 .empresa_multi {margin-top:5vw}
 
     #p502 .empresa_multi{
         height: 20%;
