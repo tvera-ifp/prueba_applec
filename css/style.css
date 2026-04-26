@@ -141,7 +141,7 @@ a {
 
 .contingut {
     background-color: #fffAEB;
-    height: 95vh;
+    height: 110vh;
  }
 
  #p3 .contingut {
@@ -150,7 +150,7 @@ a {
  }
 
  #p4 .contingut {
-    height: 95vh;
+    height: 110vh;
  }
 
 .seccio {
@@ -217,7 +217,7 @@ h2 {
 
  .converses {
     width: 80vw;
-    height: 250px;
+    height: 34vh;
     background-color: #F5C144;
     box-shadow: 0 2px 5px grey, inset 0 0px 2px grey;
     margin: auto;
@@ -261,22 +261,41 @@ h2 {
         text-shadow: 0 2px 5px grey;
     }
 
+            .icona_rellotge {
+                width: 9vw;
+                height: 5vh;
+                float: left;
+                margin-right: 1vw;
+                
+                background-image: url(../img/seccio_inici/icon_duracio.png);
+                background-repeat: no-repeat;
+                background-size: 100%;
+                background-position: center;
+
+            }
+
+            .temps_conversa {
+                font-style: normal;
+            }
+
     .nom_dia {
-        width: 90px;
-        height: 30px;
+        width: 27vw;
+        height: 6vh;
         float: right;
         margin-right: 10px;
 
         text-align: right;
-        font-size: 16px;
+        font-size: 19px;
         text-shadow: 0 2px 5px grey;
+        line-height: 1.5;
+        font-style: italic;
 
         color: white;
     }
 
 
     .line_converse {
-        height: 1px;
+        height: 1.5px;
         width: 90%;
         margin: auto;
         background-color: #ffffff;
@@ -292,22 +311,22 @@ h2 {
     }
 
     .nom_profe {
-        width: 70px;
-        height: 20px;
+        width: 20vw;
+        height: 4vh;
 
         margin-left: 10px;
         margin-top: 2.5vh;
 
         float: left;
 
-        font-size: 19px;
+        font-size: 22px;
         text-shadow: 0 2px 5px grey;
         color: white;
     }
 
     .icon_ppl {
-        width: 20vw;
-        height: 30px;
+        width: 23vw;
+        height: 4vh;
 
         margin-right: 10px;
         margin-top: 2vh;
@@ -321,21 +340,22 @@ h2 {
     }
 
     .boto_apuntat {
-        width: 80%;
-        height: 6vw;
+    width: 80%;
+    height: 7.5vw;
 
-        float: left;
-        margin-left: 8vw;
-        margin-bottom: 0;
+    float: left;
+    margin-left: 8vw;
+    margin-top: 1vh;
 
-        border-radius: 50px;
-        background-color: #fffAEB;
-        box-shadow: 0 2px 5px grey, inset 0 0px 2px grey;
+    border-radius: 50px;
+    background-color: #fffAEB;
+    box-shadow: 0 2px 5px grey, inset 0 0px 2px grey;
 
-        line-height: 2;
-        font-size: 14px;
-        font-weight: bold;
-    }
+    line-height: 2;
+    font-size: 15px;
+    font-weight: bold;
+}
+
 
     .imatge_quedada {
         width: 90%;
