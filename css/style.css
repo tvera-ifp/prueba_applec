@@ -455,6 +455,8 @@ h2 {
         box-shadow: 0 1px 3px grey, inset 0 0px 2px grey;;
     }
 
+            #p4 .mostra_tot {background-image: url(../img/seccio_recursos/icon_map.png); background-position: center; background-size: 70%;}
+
     #p201 .nivell_totes {
         background-color: #FFBE00;
     }
