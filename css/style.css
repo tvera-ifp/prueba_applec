@@ -414,6 +414,39 @@ h2 {
         margin-top: 2vh;
     }
 
+            #p2 .img1 {
+                background-image: url(../img/bcn_arctri.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: 0px -40px;
+                opacity: 93%;
+            }
+
+            #p2 .img2 {
+                
+                background-image: url(../img/bcn_plaçaesp.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                opacity: 93%;
+            }
+
+            #p4 .imgq1 {
+                background-image: url(../img/bcn_batllo.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                opacity: 93%;
+        }
+
+            #p4 .imgq2 {
+                background-image: url(../img/bcn_ciutadella.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                opacity: 93%;
+            }
+
     .icona_nivell {
         width: 10vw;
         height: 3vh;
