@@ -32,13 +32,13 @@ a {
 
 .pannot_amunt {
     width: 37vw;
-    min-height: 17vh;
+    min-height: 18vh;
     background-image: url(../img/seccio_recursos/pannot_arriba.png);
     background-repeat: no-repeat;
     background-size: cover;
     
     float: right;
-    margin-top: -11vh;
+    margin-top: -12vh;
     margin-right: 6vw;
 
 
